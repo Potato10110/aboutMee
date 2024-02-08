@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@keyframes popUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E2A3B7;
+}
+
+.box{
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.contents{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.highlight{
+    font-family: 'Yellowtail', cursive;
+    font-size: 4rem;
+    color: #FFFFE4;
+    text-shadow: 2px 2px #ff0000;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.18) 0px 15px 12px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    margin-top: .3rem;
+}
+
+.pic{
+    border-radius: 50%;
+    width: 20%;
+    border: #fefefe .4rem solid;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.hero{
+    margin-top: 90px;
+    animation: popUp 1s ease-out;
+}
+
+.aboutMe{
+    animation: popUp 2s ease-out;
+    padding: 10px;
+    margin: 10px;
+}
+.info{
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.socialMedia a img {
+    width: 40px;
+    /* Set the desired width */
+    height: 40px;
+    /* Set the desired height */
+    margin-top: 20px;
+}
